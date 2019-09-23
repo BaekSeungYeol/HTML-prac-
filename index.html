@@ -9,11 +9,6 @@
     <script src="https://kit.fontawesome.com/7828ba9eb9.js"></script>
   </head>
   <body>
-      <div class ="open-close">
-          <i class="fas fa-minus"></i>
-          <i class="far fa-square"></i>
-          <i class="fas fa-times"></i>
-      </div>
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -47,18 +42,26 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-          <div class="chat__column">
-            <img class="chat__avatar g-avatar" src="images/itsme.jpg"></img>
-            <div class="chat__content">
-              <span class="chat__username">
-               백승열
-              </span>
-              <span class="chat__preview">학교 가는 중이야</span>
-            </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">어제</span>
-          </div>
+              <div class="chats__chat friend friend--lg">
+                  <div class="friend__column">
+                    <img src="images/itsme.jpg" class="m-avatar friend__avatar" />
+                    <div class="friend__content">
+                      <span class="friend_name">
+                        엄마
+                      </span>
+                      <span class="friend__bottom-text">
+                        집밥 먹어라
+                      </span>
+                    </div>
+                  </div>
+                  <div class="friend__column">
+                    <div class="friend__now-listening">
+                     <span class="chat__timestamp">
+                       9월 23일
+                     </span>
+                    </div>
+                  </div>
+                </div>
           </a>
         </li>
       </ul>
