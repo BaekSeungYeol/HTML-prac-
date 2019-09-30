@@ -1,0 +1,15 @@
+.more .more__btn-title {
+	margin: 30px, 0px;
+	display: flex;
+	align-items: center;
+}
+
+.more__btn-list .more__btn {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.more__btn .more__btn-title {
+	font-size: 14px;
+}
