@@ -13,3 +13,7 @@
 .more__btn .more__btn-title {
 	font-size: 14px;
 }
+
+.more {
+	min-height: 110vh;
+}
